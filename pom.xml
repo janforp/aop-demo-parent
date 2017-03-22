@@ -8,6 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
 		<module>aop-one</module>
+		<module>aop-two</module>
 	</modules>
 	<packaging>pom</packaging>
 
