@@ -35,8 +35,6 @@ public class AspectTwo {
 
             logger.info("***********************************");
             logger.info(String.format("method [%s.%s()] execution time:%sms", className, joinPoint.getSignature().getName(), elapsedTime));
-
-
         }catch (Throwable throwable){
             logger.error("aop record method exec time error",throwable);
         }
